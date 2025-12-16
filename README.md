@@ -3,6 +3,7 @@
 
 ## :bell: Updates
 + 2025-12-26: Code is available now.
++ Paper will come soon.
 
 ![Framework Overview](pipeline.png)
 
