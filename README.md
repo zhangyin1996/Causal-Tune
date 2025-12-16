@@ -4,6 +4,8 @@
 ## :bell: Updates
 + 2025-12-26: Code is available now.
 
+![Framework Overview](pipeline.png)
+
 ## 1. Environment Setup
 To set up your environment, execute the following commands:
 
