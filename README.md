@@ -113,7 +113,7 @@ python tools/train.py cconfigs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1
 
 ## 5. Evaluation
 
-Run the evaluation (C2ACDC5_12x512 as example):
+Run the evaluation (C2ACDC5_512x512 as example):
 
 ```
 python tools/test.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py exps/C2ACDC/iter_40000.pth --backbone checkpoints/dinov2_converted.pth
