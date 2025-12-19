@@ -106,10 +106,10 @@ Causal-Tune
 
 ## 4. Training
 
-Run the training (C2ACDC as example):
+Run the training (C2ACDC_512x512 as example):
 
 ```
-python tools/train.py cconfigs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py --work-dir exps/C2ACDC
+python tools/train.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py --work-dir exps/C2ACDC
 ```
 
 ## 5. Evaluation
