@@ -56,13 +56,10 @@ python tools/convert_datasets/mapillary_resize.py data/mapillary/validation/imag
   ```bash
   python tools/convert_models/convert_dinov2.py checkpoints/dinov2_vitl14_pretrain.pth checkpoints/dinov2_converted.pth
   ```
-
-```
-(optional for 1024x1024 resolution)
-
-```bash
-python tools/convert_models/convert_dinov2.py checkpoints/dinov2_vitl14_pretrain.pth checkpoints/dinov2_converted_1024x1024.pth --height 1024 --width 1024
-```
++ **For 1024x1024 resolution (optional):** 
+  ```bash
+  python tools/convert_models/convert_dinov2.py checkpoints/dinov2_vitl14_pretrain.pth checkpoints/dinov2_converted_1024x1024.pth --height 1024 --width 1024
+  ```
 
 The final folder structure should look like this:
 
@@ -101,26 +98,28 @@ Causal-Tune
 │   │   ├── labels
 ├── ...
 ```
-
 ### :rotating_light: Please refer to [Rein](https://github.com/w1oves/Rein) (CVPR2024) for more details.
 
 ## 4. Training
 
-Run the training (C2ACDC_512x512 as example):
++ Run the training (Cityscapes to ACDC 512x512 as example):
 
 ```
 python tools/train.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py --work-dir exps/C2ACDC
 ```
 
++ Using a resolution of **1024x1024** for training can lead to better performance, but it also significantly increases GPU memory consumption (~ 30 GB).
+
+
 ## 5. Evaluation
 
-Run the evaluation (C2ACDC5_512x512 as example):
+Run the evaluation (Cityscapes to ACDC 512x512 as example):
 
 ```
 python tools/test.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py exps/C2ACDC/iter_40000.pth --backbone checkpoints/dinov2_converted.pth
 ```
 ## 6. Acknowledgements
-+ The code is based on [Rein](https://github.com/w1oves/Rein) (CVPR2024) and [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024).
-+ In addition, some codes are borrowed from [MAD](https://github.com/K2OKOH/MAD) (CVPR2023).
++ The code is based on [Rein](https://github.com/w1oves/Rein) (CVPR2024) 
++ In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024) and [MAD](https://github.com/K2OKOH/MAD) (CVPR2023).
 
 **Many thanks for these great works!**
