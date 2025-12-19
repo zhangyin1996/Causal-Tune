@@ -1,6 +1,6 @@
 #  Causal-Tune
 ## [AAAI 2026] Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation
-
+[Yin Zhang](https://zhangyin1996.github.io/), [Yongqiang Zhang](https://scholar.google.com/citations?user=5pXsfO8AAAAJ), [Yaoyue Zheng](https://yaoyz96.github.io/), [Bogdan Raducanu](https://scholar.google.com/citations?user=zdIW07oAAAAJ), Dan Liu
 ## :bell: Updates
 + 2025-12-19: Paper is available. [arXiv](https://arxiv.org/pdf/2512.16567)
 + 2025-12-16: Code is available now.
