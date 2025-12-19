@@ -3,7 +3,7 @@
 
 ## :bell: Updates
 + 2025-12-26: Code is available now.
-+ Paper will come soon.
++ (arXiv)[https://arxiv.org/user/]
 
 ![Framework Overview](pipeline.png)
 
