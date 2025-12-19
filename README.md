@@ -2,8 +2,9 @@
 ## [AAAI 2026] Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation
 
 ## :bell: Updates
-+ 2025-12-26: Code is available now.
-+ (arXiv)[https://arxiv.org/user/]
++ 2025-12-19: Paper is available. [arXiv](https://arxiv.org/pdf/2512.16567)
++ 2025-12-16: Code is available now.
+
 
 ![Framework Overview](pipeline.png)
 
