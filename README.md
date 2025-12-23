@@ -118,7 +118,17 @@ Run the evaluation (Cityscapes to ACDC 512x512 as example):
 ```
 python tools/test.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py exps/C2ACDC/iter_40000.pth --backbone checkpoints/dinov2_converted.pth
 ```
-## 6. Acknowledgements
+## 6. Citation
+If you find Causal-Tune useful in your research, please consider citing:
+```
+@article{zhang2025causal,
+  title={Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation},
+  author={Zhang, Yin and Zhang, Yongqiang and Zheng, Yaoyue and Raducanu, Bogdan and Liu, Dan},
+  journal={arXiv preprint arXiv:2512.16567},
+  year={2025}
+}
+```
+## 7. Acknowledgements
 + The code is based on [Rein](https://github.com/w1oves/Rein) (CVPR2024) 
 + In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024) and [MAD](https://github.com/K2OKOH/MAD) (CVPR2023).
 
