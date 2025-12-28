@@ -130,6 +130,6 @@ If you find Causal-Tune useful in your research, please consider citing:
 ```
 ## 7. Acknowledgements
 + The code is based on [Rein](https://github.com/w1oves/Rein) (CVPR2024) 
-+ In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024) and [MAD](https://github.com/K2OKOH/MAD) (CVPR2023).
++ In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024), [MAD](https://github.com/K2OKOH/MAD) (CVPR2023) and [FisherTune](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_FisherTune_Fisher-Guided_Robust_Tuning_of_Vision_Foundation_Models_for_Domain_CVPR_2025_paper.pdf) (CVPR 2025).
 
 **Many thanks for these great works!**
