@@ -24,6 +24,7 @@ pip install "mmdet==3.3.0"
 pip install xformers=='0.0.20' # optional for DINOv2
 pip install -r requirements.txt
 pip install future tensorboard
+pip install numpy==1.26.4
 ```
 
 ## 2. Dataset Preparation
