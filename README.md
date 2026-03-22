@@ -12,13 +12,13 @@
 To set up your environment, execute the following commands:
 
 ```bash
-conda create -n Causal-Tune -y
+conda create -n Causal-Tune python=3.9 -y
 conda activate Causal-Tune
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -U openmim
 mim install mmengine
 mim install "mmcv==2.1.0"
-min install mmpretraion
+# mim install mmpretraion
 pip install "mmsegmentation>=1.0.0"
 pip install "mmdet==3.3.0"
 pip install xformers=='0.0.20' # optional for DINOv2
