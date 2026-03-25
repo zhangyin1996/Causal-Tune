@@ -16,6 +16,7 @@ conda create -n Causal-Tune python=3.9 -y
 conda activate Causal-Tune
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -U openmim
+# pip install cmake lit
 mim install mmengine
 mim install "mmcv==2.1.0"
 # mim install mmpretraion
