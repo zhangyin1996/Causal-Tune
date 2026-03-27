@@ -2,6 +2,7 @@
 ## [AAAI 2026] Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation
 [Yin Zhang](https://zhangyin1996.github.io/), [Yongqiang Zhang](https://scholar.google.com/citations?user=mgpE1noAAAAJ&hl), [Yaoyue Zheng](https://yaoyz96.github.io/), [Bogdan Raducanu](https://scholar.google.com/citations?user=zdIW07oAAAAJ), Dan Liu
 ## :bell: Updates
++ 2026-03-14: Paper is published. [AAAI 2026](https://ojs.aaai.org/index.php/AAAI/article/view/38290)
 + 2025-12-19: Paper is available. [arXiv](https://arxiv.org/pdf/2512.16567)
 + 2025-12-16: Code is available now.
 
@@ -121,13 +122,16 @@ Run the evaluation (Cityscapes to ACDC 512x512 as example):
 python tools/test.py configs/dinov2_C2ACDC/rein_dinov2_mask2former_512x512_bs1x4.py exps/C2ACDC/iter_40000.pth --backbone checkpoints/dinov2_converted.pth
 ```
 ## 6. Citation
-If you find Causal-Tune useful in your research, please consider citing:
+If you find Causal-Tune useful in your research, please consider citing and give us a star ⭐ on GitHub:
 ```
-@article{zhang2025causal,
+@inproceedings{zhang2026causal,
   title={Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation},
   author={Zhang, Yin and Zhang, Yongqiang and Zheng, Yaoyue and Raducanu, Bogdan and Liu, Dan},
-  journal={arXiv preprint arXiv:2512.16567},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={15},
+  pages={12916--12924},
+  year={2026}
 }
 ```
 ## 7. Acknowledgements
