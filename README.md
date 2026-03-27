@@ -2,7 +2,7 @@
 ## [AAAI 2026] Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation
 [Yin Zhang](https://zhangyin1996.github.io/), [Yongqiang Zhang](https://scholar.google.com/citations?user=mgpE1noAAAAJ&hl), [Yaoyue Zheng](https://yaoyz96.github.io/), [Bogdan Raducanu](https://scholar.google.com/citations?user=zdIW07oAAAAJ), Dan Liu
 ## :bell: Updates
-+ 2026-03-14: Paper is published. [AAAI 2026](https://ojs.aaai.org/index.php/AAAI/article/view/38290)
++ 2026-03-14: Paper is published. [AAAI2026](https://ojs.aaai.org/index.php/AAAI/article/view/38290)
 + 2025-12-19: Paper is available. [arXiv](https://arxiv.org/pdf/2512.16567)
 + 2025-12-16: Code is available now.
 
@@ -136,6 +136,6 @@ If you find Causal-Tune useful in your research, please consider citing and give
 ```
 ## 7. Acknowledgements
 + The code is based on [Rein](https://github.com/w1oves/Rein) (CVPR2024) 
-+ In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024), [MAD](https://github.com/K2OKOH/MAD) (CVPR2023) and [FisherTune](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_FisherTune_Fisher-Guided_Robust_Tuning_of_Vision_Foundation_Models_for_Domain_CVPR_2025_paper.pdf) (CVPR 2025).
++ In addition, some ideas and code are inspired by [SET](https://dl.acm.org/doi/pdf/10.1145/3664647.3680906) (ACM MM2024), [MAD](https://github.com/K2OKOH/MAD) (CVPR2023) and [FisherTune](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_FisherTune_Fisher-Guided_Robust_Tuning_of_Vision_Foundation_Models_for_Domain_CVPR_2025_paper.pdf) (CVPR2025).
 
 **Many thanks for these great works!**
